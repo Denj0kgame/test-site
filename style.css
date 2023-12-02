@@ -43,6 +43,12 @@ body {
     border-radius: 10px;
 }
 
+@media (max-width: 800px) {
+    .card {
+        flex-direction: column;
+    }
+}
+
 .card-content {
     display: flex;
     flex-direction: column;
